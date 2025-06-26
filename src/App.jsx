@@ -4,33 +4,33 @@ import React, { useState } from 'react';
 const quizQuestions = [
   {
     id: 1,
-    question: "What is the capital of France?",
-    options: ["London", "Berlin", "Paris", "Madrid"],
-    correct: 2
-  },
-  {
-    id: 2,
-    question: "Which planet is known as the Red Planet?",
-    options: ["Venus", "Mars", "Jupiter", "Saturn"],
+    question: "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    options: ["The letter M", "A shadow", "A thought", "Time"],
     correct: 1
   },
   {
+    id: 2,
+    question: "If you were on the Moon, what color would the sky appear?",
+    options: ["Blue", "White", "Red", "Black"],
+    correct: 4
+  },
+  {
     id: 3,
-    question: "What is the largest ocean on Earth?",
-    options: ["Atlantic", "Indian", "Arctic", "Pacific"],
-    correct: 3
+    question: "Which animal can survive in space (for a short time)?",
+    options: ["Ant", "Tardigrade", "Cockroach", "Jellyfish"],
+    correct: 2
   },
   {
     id: 4,
-    question: "Who painted the Mona Lisa?",
-    options: ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+    question: "What’s the most stolen food in the world?",
+    options: ["Cheese", "Chocolate", "Bread", "Apples"],
     correct: 1
   },
   {
     id: 5,
-    question: "What is the smallest country in the world?",
-    options: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-    correct: 1
+    question: "Which of the following animals is not a mammal?",
+    options: ["Dolphin", "Platypus", "Bat", "Penguin"],
+    correct: 4
   }
 ];
 
